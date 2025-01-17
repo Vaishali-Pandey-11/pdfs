@@ -1,0 +1,127 @@
+<html>
+
+<head>
+<title>Colored Band</title>
+    <style>
+        .colored-band {
+            background-color:gray; 
+            height: 250px;
+            width: 100%; 
+        }
+    </style>
+
+
+<title>Moving Video Background</title>
+    <style>
+        /* Make the video cover the entire background */
+        body, html {
+            margin: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+
+body, html {
+    margin: 0;
+    height: 100%; 
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto; /* Allow vertical scroll */
+}
+
+
+        .video-background {
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            object-fit: cover; /* Ensure the video covers the entire background */
+            z-index: -1; /* Send video behind content */
+        }
+
+.long-content {
+            padding: 20px;
+            height: 1500px; /* Makes the page long enough to scroll */
+        }
+</style>
+
+
+</head>
+
+<body>
+
+<div style="text-align:center;">
+<img style="width:370px;"src="owl_logo.png">
+</div>
+<br>
+
+<div style="text-align:center;">
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="#">Home</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="about.html">About</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="tips.html">Study Tips and Resources</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="time.html">Time Management</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="learn.html">Learning Styles</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="sign_in.html">Sign in</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="login.html">Login</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="uni.html">Universities</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="contact_us.html">Contact Us</a>
+<a style="font-size:16px; background-color:gray; padding: 10px 30px 10px 30px; color:black;"href="privacy.html">Privacy Policies</a>
+
+</div>
+
+
+<br>
+<h1 style="font-size:50px; text-align:center;">Welcome to StudyBuddy!</h1>
+
+
+<p style="font-size:25px; text-align:left; line-height:30px; margin-bottom:50px;">
+Your go-to platform for previous year question papers. StudyBuddy is designed to help college students prepare smartly by providing easy access to a wide range of past exam papers. Whether you're revising for finals or looking to understand exam patterns, we've got you covered. Explore, practice, and ace your exams with StudyBuddy because preparation is the key to success!
+</p>
+
+
+
+<div class="long-content">
+
+<h2><u>Top Degrees</u></h2>
+<p style="font-size:25px; text-align:left; line-height:30px; margin-bottom:50px;">B.Tech.<br>B.A.<br>B.Com.<br>BCA<br>BBA<br></p>
+
+
+<h2><u>Top Courses</u></h2>
+<p style="font-size:25px; text-align:left; line-height:30px; margin-bottom:50px;">
+Electronics and Communication Engineering Papers<br>
+Information Technology Papers<br>
+Computer Science Engineering Papers<br>
+Civil Engineering Papers<br>
+Electronics and Instrumentation Engineering Papers<br>
+Electrical and Electronics Engineering Papers<br>
+Biotechnology Engineering Papers<br>
+Mechanical Engineering Papers<br>
+Industrial Engineering Papers<br>
+English Papers <br>
+</p>
+
+<div class="colored-band">
+<h2>Reach us at: <br></h2><br>
+<a href="https://mail.google.com/mail/u/0/?hl=nl#inbox?compose=DmwnWrRttgMVxscjhtvrqlrhrKVHBmsTVWDgtjGRRqsmdsRkJVqrpbdJhgWFBqvPgbvZVhPLGxcg">
+<img style="width:10%; padding-right:50px;"src="email.png">
+</a>
+
+<a href="https://www.instagram.com/vaishalipandey_11/">
+<img style="width:10%;padding-right:50px;"src="Instagram.png">
+</a>
+
+<a href="tel:+919557109373">
+<img style="width:10%;padding-right:50px;"src="phone.png">
+</a>
+
+</div>
+
+<video class="video-background" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+</div>
+
+
+</body>
+</html>
